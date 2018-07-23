@@ -3,10 +3,10 @@
     'name': "fz_limit_user",
 
     'summary': """
-        Limit User By Code""",
+        set User trial By company expire""",
 
     'description': """
-        Limit User By Code
+        set User trial By company expire
     """,
 
     'author': "Fauzi Tsani Zharfan",
@@ -24,7 +24,7 @@
     # always loaded
     'data': [
         # 'security/ir.model.access.csv',
-        # 'views/views.xml',
+        'views/res_company.xml',
         # 'views/templates.xml',
     ],
     # only loaded in demonstration mode
